@@ -10,7 +10,7 @@
 // 1. MOBILE NAVIGATION TOGGLE
 // =================================================================
 const hamburger = document.getElementById('hamburger');
-const nav       = document.getElementById('nav');
+const nav = document.getElementById('nav');
 
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active');
@@ -38,16 +38,16 @@ const GOOGLE_SCRIPT_URL = 'YOUR_GOOGLE_SCRIPT_URL';
 // =================================================================
 // 3. WHATSAPP CONFIGURATION
 // =================================================================
-const WHATSAPP_NUMBER = '919061512440';
+const WHATSAPP_NUMBER = '918848896633';
 
 
 // =================================================================
 // 4. FORM HANDLING
 // =================================================================
-const form       = document.getElementById('bookingForm');
-const submitBtn  = document.getElementById('submitBtn');
+const form = document.getElementById('bookingForm');
+const submitBtn = document.getElementById('submitBtn');
 const successMsg = document.getElementById('formSuccess');
-const errorMsg   = document.getElementById('formError');
+const errorMsg = document.getElementById('formError');
 
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -62,13 +62,13 @@ form.addEventListener('submit', async (e) => {
 
     // --- Collect form data ---
     const formData = {
-        fullName:      document.getElementById('fullName').value.trim(),
-        phone:         document.getElementById('phone').value.trim(),
-        address:       document.getElementById('address').value.trim(),
-        serviceType:   document.getElementById('serviceType').value,
-        toyType:       document.getElementById('toyType').value,
+        fullName: document.getElementById('fullName').value.trim(),
+        phone: document.getElementById('phone').value.trim(),
+        address: document.getElementById('address').value.trim(),
+        serviceType: document.getElementById('serviceType').value,
+        toyType: document.getElementById('toyType').value,
         preferredDate: document.getElementById('preferredDate').value,
-        problem:       document.getElementById('problem').value.trim()
+        problem: document.getElementById('problem').value.trim()
     };
 
     // --- Show loading state ---
