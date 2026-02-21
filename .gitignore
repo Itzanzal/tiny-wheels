@@ -1,0 +1,9 @@
+# Deployment & backend files (not needed on GitHub Pages)
+google-apps-script.js
+DEPLOYMENT.md
+screen.png
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
